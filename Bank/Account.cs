@@ -10,5 +10,6 @@ namespace Bank
     {
         private int number;
         private Agency agency;
+        private Double balance;
     }
 }
