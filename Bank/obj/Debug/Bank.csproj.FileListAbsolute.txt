@@ -8,3 +8,4 @@ C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\
 C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.csproj.GenerateResource.Cache
 C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.exe
 C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.pdb
+C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.FormBalance.resources
