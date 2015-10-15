@@ -40,13 +40,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Saldo em conta R$:";
             // 
-            // FormSaldo
+            // FormBalance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 426);
+            this.ClientSize = new System.Drawing.Size(340, 415);
             this.Controls.Add(this.label1);
-            this.Name = "FormSaldo";
+            this.Name = "FormBalance";
             this.Text = "FormSaldo";
             this.ResumeLayout(false);
             this.PerformLayout();

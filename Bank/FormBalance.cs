@@ -15,6 +15,7 @@ namespace Bank
         public FormBalance()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
     }
 }
