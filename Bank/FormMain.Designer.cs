@@ -63,6 +63,7 @@
             this.balanceToolStripMenuItem1.Name = "balanceToolStripMenuItem1";
             this.balanceToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.balanceToolStripMenuItem1.Text = "Deposit";
+            this.balanceToolStripMenuItem1.Click += new System.EventHandler(this.balanceToolStripMenuItem1_Click);
             // 
             // drawOutToolStripMenuItem
             // 

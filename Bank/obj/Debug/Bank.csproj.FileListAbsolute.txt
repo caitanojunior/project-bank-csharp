@@ -9,3 +9,4 @@ C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\
 C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.pdb
 C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.FormBalance.resources
 C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.FormMain.resources
+C:\Users\Caitano\Documents\Visual Studio 2015\Projects\project-bank-csharp\Bank\obj\Debug\Bank.FormDeposit.resources

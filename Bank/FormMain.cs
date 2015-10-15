@@ -46,5 +46,12 @@ namespace Bank
             formBalance.MdiParent = this;
             formBalance.Show();
         }
+
+        private void balanceToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormDeposit formDeposit = new FormDeposit();
+            formDeposit.MdiParent = this;
+            formDeposit.Show();
+        }
     }
 }
