@@ -32,13 +32,13 @@ namespace Bank
             bool open = false;
             foreach (Form frm in this.MdiChildren)
             {
-                if (frm is FormBalance) //Comentário 1  
+                if (frm is FormBalance)  
                 {
                     frm.BringToFront();
-                    open = true; //Comentário 2  
+                    open = true; 
                 }
             }
-            if (!open)
+            if (!open)//if there is no open instance
             {
                 FormBalance formBalance = new FormBalance();
                 formBalance.MdiParent = this;
@@ -47,10 +47,22 @@ namespace Bank
         }
 
         private void balanceToolStripMenuItem1_Click(object sender, EventArgs e)
-        {           
+        {
+            bool open = false;
+            foreach (Form frm in this.MdiChildren)
+            {
+                if (frm is FormDeposit)
+                {
+                    frm.BringToFront();
+                    open = true;
+                }
+            }
+            if (!open)//if there is no open instance
+            {
                 FormDeposit formDeposit = new FormDeposit();
                 formDeposit.MdiParent = this;
-                formDeposit.Show();     
+                formDeposit.Show();
+            }  
         }
     }
 }
