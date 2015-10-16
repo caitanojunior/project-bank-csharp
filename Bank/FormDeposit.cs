@@ -20,7 +20,7 @@ namespace Bank
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja cancelar o depósito?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Wish to cancel deposit?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 this.Close();
             }

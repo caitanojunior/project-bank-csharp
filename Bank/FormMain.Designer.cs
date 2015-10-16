@@ -55,8 +55,8 @@
             this.balanceToolStripMenuItem2,
             this.exitToolStripMenuItem});
             this.balanceToolStripMenuItem.Name = "balanceToolStripMenuItem";
-            this.balanceToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.balanceToolStripMenuItem.Text = "Opções";
+            this.balanceToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.balanceToolStripMenuItem.Text = "Options";
             // 
             // balanceToolStripMenuItem1
             // 

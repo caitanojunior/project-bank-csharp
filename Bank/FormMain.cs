@@ -17,14 +17,6 @@ namespace Bank
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Deseja encerrar a aplicação?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             FormBalance formBalance = new FormBalance();
@@ -34,7 +26,7 @@ namespace Bank
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja encerrar a aplicação?", "Aviso", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Want to quit the application?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 Application.Exit();
             }
